@@ -138,7 +138,7 @@ export default function App() {
           </nav>
 
           <a href="#" className="text-3xl md:text-4xl font-serif italic tracking-tight text-center absolute left-1/2 -translate-x-1/2 text-nami-text hover:text-nami-gold transition-colors duration-500">
-            rafique fragrance
+            Scentara
           </a>
 
           <div className="flex items-center gap-8">
@@ -166,7 +166,7 @@ export default function App() {
             className="fixed inset-0 z-[60] bg-nami-bg p-6 flex flex-col"
           >
             <div className="flex justify-between items-center mb-16">
-              <span className="text-3xl font-serif italic">rafique fragrance</span>
+              <span className="text-3xl font-serif italic">Scentara</span>
               <button onClick={() => setIsMobileMenuOpen(false)}>
                 <X size={28} strokeWidth={1} />
               </button>
@@ -216,7 +216,7 @@ export default function App() {
             className="flex items-center gap-6 mb-8 md:mb-12"
           >
             <div className="w-12 h-[1px] bg-nami-gold/60"></div>
-            <span className="text-[9px] md:text-[10px] tracking-[0.5em] uppercase text-nami-gold">Maison de Parfum</span>
+            <span className="text-[9px] md:text-[10px] tracking-[0.5em] uppercase text-nami-gold">The World of Scents</span>
             <div className="w-12 h-[1px] bg-nami-gold/60"></div>
           </motion.div>
 
@@ -358,7 +358,7 @@ export default function App() {
               We believe a fragrance is more than just a scent—it's an extension of your identity. Luxury-inspired fragrances crafted to leave a lasting impression wherever you go.
             </p>
             <a 
-              href="https://instagram.com/rafiquefragrance" 
+              href="https://instagram.com/scentaratheworldofscents" 
               target="_blank"
               rel="noreferrer"
               className="relative overflow-hidden group w-fit px-10 py-4 border border-nami-border text-[9px] tracking-[0.3em] uppercase transition-colors duration-500"
@@ -395,10 +395,10 @@ export default function App() {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[1000px] h-[400px] bg-nami-gold/[0.04] blur-[100px] rounded-full pointer-events-none"></div>
         
         <div className="relative z-10 text-center mb-16 px-6">
-          <a href="https://instagram.com/rafiquefragrance" target="_blank" rel="noreferrer" className="inline-flex items-center gap-3 text-nami-gold hover:text-nami-text transition-colors mb-6">
+          <a href="https://instagram.com/scentaratheworldofscents" target="_blank" rel="noreferrer" className="inline-flex items-center gap-3 text-nami-gold hover:text-nami-text transition-colors mb-6">
             <Instagram size={24} strokeWidth={1} />
           </a>
-          <h2 className="text-4xl font-serif font-light mb-4">@rafiquefragrance</h2>
+          <h2 className="text-4xl font-serif font-light mb-4">@scentaratheworldofscents</h2>
           <p className="text-[10px] tracking-[0.2em] uppercase text-nami-text/60">Tag us to be featured</p>
         </div>
         
@@ -452,12 +452,12 @@ export default function App() {
 
           <div className="grid grid-cols-1 md:grid-cols-12 gap-16 mb-24">
             <div className="md:col-span-4">
-              <h3 className="text-3xl font-serif italic mb-8 text-nami-text/90">rafique fragrance</h3>
+              <h3 className="text-3xl font-serif italic mb-8 text-nami-text/90">Scentara</h3>
               <p className="text-xs font-light leading-relaxed text-nami-text/50 max-w-xs mb-10 uppercase tracking-[0.1em]">
-                Luxury-inspired fragrances where elegance meets identity. Crafted for the modern connoisseur.
+                The World of Scents. Luxury-inspired fragrances where elegance meets identity. Crafted for the modern connoisseur.
               </p>
               <div className="flex gap-4">
-                <a href="https://instagram.com/rafiquefragrance" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full border border-nami-border flex items-center justify-center hover:bg-nami-gold hover:border-nami-gold hover:text-[#020202] transition-colors duration-500">
+                <a href="https://instagram.com/scentaratheworldofscents" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full border border-nami-border flex items-center justify-center hover:bg-nami-gold hover:border-nami-gold hover:text-[#020202] transition-colors duration-500">
                   <Instagram size={16} strokeWidth={1} />
                 </a>
               </div>
@@ -495,7 +495,7 @@ export default function App() {
           </div>
           
           <div className="border-t border-nami-border pt-8 flex flex-col md:flex-row justify-between items-center gap-6 text-[9px] tracking-[0.3em] uppercase text-nami-text/30">
-            <p>&copy; {new Date().getFullYear()} Rafique Fragrance. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Scentara. All rights reserved.</p>
             <div className="flex gap-8">
               <a href="#" className="hover:text-nami-text transition-colors duration-300">Privacy</a>
               <a href="#" className="hover:text-nami-text transition-colors duration-300">Terms</a>
